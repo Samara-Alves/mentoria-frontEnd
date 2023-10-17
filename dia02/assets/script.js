@@ -16,7 +16,7 @@ form.addEventListener('submit', function(event) {
 
     document.getElementById('infos').classList.remove('hidden');
 
-
+/*
     if  (bmi < 18.5) {
         description = 'Cuidado! Você está abaixo do peso!'
     }    else if ( bmi >= 18.5 && bmi <= 25 ) {
@@ -35,6 +35,6 @@ form.addEventListener('submit', function(event) {
         description = "Cuidado! você está com obesidade morbida!";
     }
     value.textContent = bmi.replace('.',',');
-    document.getElementById('description').textContent = description;
+    document.getElementById('description').textContent = description;*/
 
 });

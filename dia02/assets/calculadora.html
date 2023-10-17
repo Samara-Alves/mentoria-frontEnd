@@ -10,9 +10,11 @@
 </head>
 <body>
     <main id="container">
+
         <section id="img"> 
             <img src="img/personal_fitness.svg" alt="">
         </section>
+        
         <section id="calculator">
             <form id="form">
                 <h1 id="title">
@@ -22,6 +24,7 @@
                     <label for="weight">
                         Peso em Kg
                     </label>
+
                     <div class="input-field">
                         <i class="fa-solid fa-weight-hanging"></i>
                         <input type="number" id="wheight" required>
@@ -39,18 +42,22 @@
                         <span>m</span>
                     </div>
                 </div>
-                <button id="calculando">Calcular</button>
+
+                <button id="calculate">Calcular</button>
             </form>
 
             <div id="infos" class="hidden">
                 <div id="result">
+
                     <div id="bmi">
                         <span id="value"></span>
                         <span>Seu IMC</span>
                     </div>
+
                     <div id="description">
                         <span></span>
                     </div>
+                    
                 </div>
 
                 <div id="more_info">
@@ -58,9 +65,11 @@
                         <i class="fa-solid fa-up-right-from-square"></i>
                     </a>
                 </div>
+
             </div>
         </section>
     </main>
-    <script src="dia02/assets/script.js"></script>    
+    
+    <script src="assets/script.js"></script>    
 </body>
 </html>

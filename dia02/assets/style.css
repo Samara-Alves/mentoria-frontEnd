@@ -20,6 +20,7 @@
     align-items: center;
     gap: 3.5rem;
  }
+
  #img img {
     width: 32rem;
  }
@@ -33,6 +34,7 @@
     background-color: #262626;
     border-radius: 8px;
  }
+
  #form {
     display: flex;
     flex-direction: column;
@@ -42,7 +44,7 @@
     font-size: 2.25rem;
     position: relative;
  }
- #title:after {
+ #title::after {
     position: absolute;
     content: '';
     background-color: #ff63f9;
@@ -52,11 +54,13 @@
     left: 0;
     border-radius: 3px;
  }
+
  .input-box label {
     font-size: 1.1rem;
     color: #cbd5e1;
     font-weight: 500;
  }
+
  .input-field {
     display: flex;
     align-items: center;
@@ -73,6 +77,7 @@
     font-size: 1.3rem;
     padding: 0.6rem 1rem;
  }
+
 .input-field input {
     background-color:  transparent;
     border: none;
@@ -81,6 +86,7 @@
     color: #f8fafc;
     padding: 0 0.5rem;
 }
+
 .input-field input::-webkit-outer-spin-button,
 .input-field input::-webkit-inner-spin-button {
     appearance: none;
@@ -90,7 +96,7 @@
     outline: none;
   }
 
-  #calculando {
+  #calculate {
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
@@ -108,6 +114,7 @@
     border-top: 1px solid #ffffff34;
     padding: 0.75rem;
   }
+
   #bmi {
     display: flex;
     align-items: center;
@@ -117,13 +124,16 @@
   #bmi span:last-child {
     font-size: 0.875rem;
   }
+
   #description {
     width: 15.5rem;
   }
+
   #more_info {   
     border-top: 1px solid #ffffff34;
     padding-top: 1.5rem;
   }
+
   #more_info a {
     color: #ff63f9;
     display: flex;
@@ -139,6 +149,9 @@
     color: #f8fafc;
   }
 
+  .hidden {
+    display: none;
+  }
 
   
 
