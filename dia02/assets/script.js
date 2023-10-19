@@ -4,8 +4,8 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
     
     
-    const weight = document.getElementById('weight').value;
-    const height = document.getElementById('height').value;
+    const weight = document.getElementById('weight');
+    const height = document.getElementById('height');
 
 
     const bmi = (weight / (height * height)).toFixed(2);
